@@ -1,0 +1,148 @@
+[
+  {
+    "expected_iterations" : 100000,
+    "expected_key_bytes" : 32,
+    "expected_version" : "v1",
+    "expected_word_count" : 12,
+    "file" : "export-files\/sample-12-100k.txt",
+    "id" : "export-12-100k-space",
+    "notes" : "Canonical 12-word export, space-separated tokens",
+    "obfuscate_id" : "obf-12-first-100k"
+  },
+  {
+    "expected_iterations" : 100000,
+    "expected_key_bytes" : 32,
+    "expected_version" : "v1",
+    "expected_word_count" : 24,
+    "file" : "export-files\/sample-24-100k.txt",
+    "id" : "export-24-100k-space",
+    "notes" : "Canonical 24-word export",
+    "obfuscate_id" : "obf-24-first-100k"
+  },
+  {
+    "expected_iterations" : 100000,
+    "expected_key_bytes" : 32,
+    "expected_version" : "v1",
+    "expected_word_count" : 15,
+    "file" : "export-files\/sample-15-100k.txt",
+    "id" : "export-15-100k-space",
+    "notes" : "15-word mnemonic",
+    "obfuscate_id" : "obf-n15-s00-100k"
+  },
+  {
+    "expected_iterations" : 100000,
+    "expected_key_bytes" : 32,
+    "expected_version" : "v1",
+    "expected_word_count" : 18,
+    "file" : "export-files\/sample-18-100k.txt",
+    "id" : "export-18-100k-space",
+    "notes" : "18-word mnemonic",
+    "obfuscate_id" : "obf-n18-s00-100k"
+  },
+  {
+    "expected_iterations" : 100000,
+    "expected_key_bytes" : 32,
+    "expected_version" : "v1",
+    "expected_word_count" : 21,
+    "file" : "export-files\/sample-21-100k.txt",
+    "id" : "export-21-100k-space",
+    "notes" : "21-word mnemonic",
+    "obfuscate_id" : "obf-n21-s00-100k"
+  },
+  {
+    "expected_iterations" : 600000,
+    "expected_key_bytes" : 32,
+    "expected_version" : "v1",
+    "expected_word_count" : 12,
+    "file" : "export-files\/sample-12-600k.txt",
+    "id" : "export-12-600k",
+    "notes" : "Default app iteration preset (600k)",
+    "obfuscate_id" : "obf-12-600k"
+  },
+  {
+    "expected_iterations" : 600000,
+    "expected_key_bytes" : 32,
+    "expected_version" : "v1",
+    "expected_word_count" : 24,
+    "file" : "export-files\/sample-24-600k.txt",
+    "id" : "export-24-600k",
+    "notes" : "24 words at 600k iterations",
+    "obfuscate_id" : "obf-24-600k"
+  },
+  {
+    "expected_iterations" : 100000,
+    "expected_key_bytes" : 32,
+    "expected_version" : "v1",
+    "expected_word_count" : 12,
+    "file" : "export-files\/sample-12-secure.txt",
+    "id" : "export-12-secure",
+    "notes" : "Alternate password",
+    "obfuscate_id" : "obf-12-secure"
+  },
+  {
+    "expected_iterations" : 100000,
+    "expected_key_bytes" : 32,
+    "expected_version" : "v1",
+    "expected_word_count" : 24,
+    "file" : "export-files\/sample-24-secure.txt",
+    "id" : "export-24-secure",
+    "notes" : "24 words, alternate password",
+    "obfuscate_id" : "obf-24-secure"
+  },
+  {
+    "expected_iterations" : 100000,
+    "expected_key_bytes" : 32,
+    "expected_version" : "v1",
+    "expected_word_count" : 12,
+    "file" : "export-files\/sample-12-100k-comma.txt",
+    "id" : "export-12-comma",
+    "notes" : "Comma-separated token line",
+    "obfuscate_id" : "obf-12-first-100k"
+  },
+  {
+    "expected_iterations" : 100000,
+    "expected_key_bytes" : 32,
+    "expected_version" : "v1",
+    "expected_word_count" : 12,
+    "file" : "export-files\/sample-12-100k-semicolon.txt",
+    "id" : "export-12-semicolon",
+    "notes" : "Semicolon-separated token line",
+    "obfuscate_id" : "obf-12-first-100k"
+  },
+  {
+    "expected_iterations" : 100000,
+    "expected_key_bytes" : 32,
+    "expected_version" : "v1",
+    "expected_word_count" : 12,
+    "file" : "export-files\/sample-12-100k-mixed.txt",
+    "id" : "export-12-mixed-separators",
+    "notes" : "Mixed comma\/space\/semicolon separators",
+    "obfuscate_id" : "obf-12-first-100k"
+  },
+  {
+    "expected_iterations" : 100000,
+    "expected_key_bytes" : 32,
+    "expected_version" : "v1",
+    "expected_word_count" : 12,
+    "file" : "export-files\/sample-12-100k-upper-headers.txt",
+    "id" : "export-12-uppercase-headers",
+    "notes" : "Mixed-case header keys",
+    "obfuscate_id" : "obf-12-first-100k"
+  },
+  {
+    "expected_iterations" : 100000,
+    "expected_key_bytes" : 32,
+    "expected_version" : "v1",
+    "expected_word_count" : 12,
+    "file" : "export-files\/sample-12-100k-blank-lines.txt",
+    "id" : "export-12-blank-lines",
+    "notes" : "Blank lines between headers and tokens",
+    "obfuscate_id" : "obf-12-first-100k"
+  },
+  {
+    "file" : "export-files\/sample-12-tokens-only.txt",
+    "id" : "export-12-tokens-only",
+    "notes" : "No comment headers; caller supplies parameters",
+    "obfuscate_id" : "obf-12-first-100k"
+  }
+]

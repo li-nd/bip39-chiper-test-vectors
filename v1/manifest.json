@@ -1,0 +1,16 @@
+{
+  "alphabet" : "23456789ABCDEFGHJKMNPQRSTVWXYZ",
+  "files" : {
+    "export" : "export.json",
+    "kdf" : "kdf.json",
+    "normalize" : "normalize.json",
+    "obfuscate" : "obfuscate.json",
+    "recovery" : "recovery.json",
+    "tokens" : "tokens.json"
+  },
+  "format_version" : "v1",
+  "generated_at" : "2026-08-28T14:28:05Z",
+  "radix" : 30,
+  "spec" : "algorithm-spec-v1.md",
+  "verification" : "..\/CONFORMANCE.md"
+}

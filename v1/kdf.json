@@ -1,0 +1,882 @@
+[
+  {
+    "id" : "kdf-p01-i01",
+    "key_hex" : "4539133836a67287348f10d8110cae6e9fa46b183c3b270ae73487042a41690b",
+    "params" : {
+      "iterations" : 100000,
+      "key_bytes" : 32,
+      "salt_utf8" : "Bip39Chiper.v1.positional-hasher",
+      "version" : "v1"
+    },
+    "password_utf8" : "testpassword"
+  },
+  {
+    "id" : "kdf-p01-i02",
+    "key_hex" : "73798505e15bd7ec9e81d44b159f3f16ec05af672d2f453b970228da6350d97f",
+    "params" : {
+      "iterations" : 210000,
+      "key_bytes" : 32,
+      "salt_utf8" : "Bip39Chiper.v1.positional-hasher",
+      "version" : "v1"
+    },
+    "password_utf8" : "testpassword"
+  },
+  {
+    "id" : "kdf-p01-i03",
+    "key_hex" : "01e82c4c769248f8037c1d2fceafa1d67ed556fe719ea8ad77b2daa3d6d4cbd1",
+    "params" : {
+      "iterations" : 600000,
+      "key_bytes" : 32,
+      "salt_utf8" : "Bip39Chiper.v1.positional-hasher",
+      "version" : "v1"
+    },
+    "password_utf8" : "testpassword"
+  },
+  {
+    "id" : "kdf-p01-i04",
+    "key_hex" : "2d2d479ac2d4c0ad319c21a26f8dcb15c75c5a87693c87ec57441e41475de1a6",
+    "params" : {
+      "iterations" : 1000000,
+      "key_bytes" : 32,
+      "salt_utf8" : "Bip39Chiper.v1.positional-hasher",
+      "version" : "v1"
+    },
+    "password_utf8" : "testpassword"
+  },
+  {
+    "id" : "kdf-p01-i05",
+    "key_hex" : "862cdeb5f4efb0a94067ce436758fd2fc8827ccef2071a99fee4818d4f3a9b5f",
+    "params" : {
+      "iterations" : 2000000,
+      "key_bytes" : 32,
+      "salt_utf8" : "Bip39Chiper.v1.positional-hasher",
+      "version" : "v1"
+    },
+    "password_utf8" : "testpassword"
+  },
+  {
+    "id" : "kdf-p01-i06",
+    "key_hex" : "f4d3aa5152ebb15c5a2bfd310e04e30c4a3603d8e2cf4076b55c325a83f6345d",
+    "params" : {
+      "iterations" : 3000000,
+      "key_bytes" : 32,
+      "salt_utf8" : "Bip39Chiper.v1.positional-hasher",
+      "version" : "v1"
+    },
+    "password_utf8" : "testpassword"
+  },
+  {
+    "id" : "kdf-p01-i07",
+    "key_hex" : "f416d932da9aa52dde6aa29e8361897945232cde9d8768fb35f0bfe3c6006adf",
+    "params" : {
+      "iterations" : 5000000,
+      "key_bytes" : 32,
+      "salt_utf8" : "Bip39Chiper.v1.positional-hasher",
+      "version" : "v1"
+    },
+    "password_utf8" : "testpassword"
+  },
+  {
+    "id" : "kdf-p01-i08",
+    "key_hex" : "3c3c9c4cae1a77d7be7c49edc3e5c9b03af1175695200b60325da23744d74cf4",
+    "params" : {
+      "iterations" : 10000000,
+      "key_bytes" : 32,
+      "salt_utf8" : "Bip39Chiper.v1.positional-hasher",
+      "version" : "v1"
+    },
+    "password_utf8" : "testpassword"
+  },
+  {
+    "id" : "kdf-p01-i09",
+    "key_hex" : "7cabca2b74a5e06151abdadecbd769c06d30e1b253685211de6374064c729a75",
+    "params" : {
+      "iterations" : 15000000,
+      "key_bytes" : 32,
+      "salt_utf8" : "Bip39Chiper.v1.positional-hasher",
+      "version" : "v1"
+    },
+    "password_utf8" : "testpassword"
+  },
+  {
+    "id" : "kdf-p01-i10",
+    "key_hex" : "0aa69503fb773e22c6893e72482bb3e0d3abe7e3f8587e0bb627c07da5dc3ddf",
+    "params" : {
+      "iterations" : 20000000,
+      "key_bytes" : 32,
+      "salt_utf8" : "Bip39Chiper.v1.positional-hasher",
+      "version" : "v1"
+    },
+    "password_utf8" : "testpassword"
+  },
+  {
+    "id" : "kdf-p02-i01",
+    "key_hex" : "8ed9e82c8c3eeea96f7ff94437e608225fa3815a65ca6c1e44c25896ef9f99f1",
+    "params" : {
+      "iterations" : 100000,
+      "key_bytes" : 32,
+      "salt_utf8" : "Bip39Chiper.v1.positional-hasher",
+      "version" : "v1"
+    },
+    "password_utf8" : "securepassphrase"
+  },
+  {
+    "id" : "kdf-p02-i02",
+    "key_hex" : "5ed50fff7ad6efbb7ed83803600c29a04ce17e63ff25fd04211438f96038123a",
+    "params" : {
+      "iterations" : 210000,
+      "key_bytes" : 32,
+      "salt_utf8" : "Bip39Chiper.v1.positional-hasher",
+      "version" : "v1"
+    },
+    "password_utf8" : "securepassphrase"
+  },
+  {
+    "id" : "kdf-p02-i03",
+    "key_hex" : "bfd9ce749cb297ca4be2d697fb69de797f94d760e3d21d79bcd33e83089d47d1",
+    "params" : {
+      "iterations" : 600000,
+      "key_bytes" : 32,
+      "salt_utf8" : "Bip39Chiper.v1.positional-hasher",
+      "version" : "v1"
+    },
+    "password_utf8" : "securepassphrase"
+  },
+  {
+    "id" : "kdf-p02-i04",
+    "key_hex" : "0dec3ea25e94148d32602efae58fe0bc9880caf3939f66be86e3e3948d109f28",
+    "params" : {
+      "iterations" : 1000000,
+      "key_bytes" : 32,
+      "salt_utf8" : "Bip39Chiper.v1.positional-hasher",
+      "version" : "v1"
+    },
+    "password_utf8" : "securepassphrase"
+  },
+  {
+    "id" : "kdf-p02-i05",
+    "key_hex" : "b04615faa87ca2a4615053f407682f23300325da8b0665bed261fffbade0bec9",
+    "params" : {
+      "iterations" : 2000000,
+      "key_bytes" : 32,
+      "salt_utf8" : "Bip39Chiper.v1.positional-hasher",
+      "version" : "v1"
+    },
+    "password_utf8" : "securepassphrase"
+  },
+  {
+    "id" : "kdf-p02-i06",
+    "key_hex" : "379ebd0cdcaaffe6a831f8cc54d3fcc79f68d24e8b248234185b747026918aa4",
+    "params" : {
+      "iterations" : 3000000,
+      "key_bytes" : 32,
+      "salt_utf8" : "Bip39Chiper.v1.positional-hasher",
+      "version" : "v1"
+    },
+    "password_utf8" : "securepassphrase"
+  },
+  {
+    "id" : "kdf-p02-i07",
+    "key_hex" : "68ef59050b9c86a02260801053bb9bac93c25ccb1c09fdb7a9d3f875cad84116",
+    "params" : {
+      "iterations" : 5000000,
+      "key_bytes" : 32,
+      "salt_utf8" : "Bip39Chiper.v1.positional-hasher",
+      "version" : "v1"
+    },
+    "password_utf8" : "securepassphrase"
+  },
+  {
+    "id" : "kdf-p02-i08",
+    "key_hex" : "0355a356ac5e680765b681e379ae2e02f6a35bbfc0f392839fd77d136ccee27e",
+    "params" : {
+      "iterations" : 10000000,
+      "key_bytes" : 32,
+      "salt_utf8" : "Bip39Chiper.v1.positional-hasher",
+      "version" : "v1"
+    },
+    "password_utf8" : "securepassphrase"
+  },
+  {
+    "id" : "kdf-p02-i09",
+    "key_hex" : "523368ab1913aa816c48c4a838df65f11a87ba7dc5f89f0f8a7361f193e1df91",
+    "params" : {
+      "iterations" : 15000000,
+      "key_bytes" : 32,
+      "salt_utf8" : "Bip39Chiper.v1.positional-hasher",
+      "version" : "v1"
+    },
+    "password_utf8" : "securepassphrase"
+  },
+  {
+    "id" : "kdf-p02-i10",
+    "key_hex" : "140eb639293801c49aa8ab0baf5e08222c54a4079cd3744d789d39d38ff0ab95",
+    "params" : {
+      "iterations" : 20000000,
+      "key_bytes" : 32,
+      "salt_utf8" : "Bip39Chiper.v1.positional-hasher",
+      "version" : "v1"
+    },
+    "password_utf8" : "securepassphrase"
+  },
+  {
+    "id" : "kdf-p03-i01",
+    "key_hex" : "8d41ed4da0337803683aac84d54815a16ed47dc4a7c77075418098622d786700",
+    "params" : {
+      "iterations" : 100000,
+      "key_bytes" : 32,
+      "salt_utf8" : "Bip39Chiper.v1.positional-hasher",
+      "version" : "v1"
+    },
+    "password_utf8" : "päss🔑word"
+  },
+  {
+    "id" : "kdf-p03-i02",
+    "key_hex" : "d5a3cee94b0612f5f80f0c0cfc36284cbfeae0cc790f3b5f5e3d47c85bbf3fc9",
+    "params" : {
+      "iterations" : 210000,
+      "key_bytes" : 32,
+      "salt_utf8" : "Bip39Chiper.v1.positional-hasher",
+      "version" : "v1"
+    },
+    "password_utf8" : "päss🔑word"
+  },
+  {
+    "id" : "kdf-p03-i03",
+    "key_hex" : "e5aa6df56c75065a5a8cd408f0c166f049e73f4d2335d20f1931236cdad5113d",
+    "params" : {
+      "iterations" : 600000,
+      "key_bytes" : 32,
+      "salt_utf8" : "Bip39Chiper.v1.positional-hasher",
+      "version" : "v1"
+    },
+    "password_utf8" : "päss🔑word"
+  },
+  {
+    "id" : "kdf-p03-i04",
+    "key_hex" : "131562a8ca31b0cc2ddc8f45096cfee1980840be4cd6269cb6bdd36a226c4002",
+    "params" : {
+      "iterations" : 1000000,
+      "key_bytes" : 32,
+      "salt_utf8" : "Bip39Chiper.v1.positional-hasher",
+      "version" : "v1"
+    },
+    "password_utf8" : "päss🔑word"
+  },
+  {
+    "id" : "kdf-p03-i05",
+    "key_hex" : "0acb5f6d103241f54ea122c3034ae0438f526740f353b962f365e355799dee70",
+    "params" : {
+      "iterations" : 2000000,
+      "key_bytes" : 32,
+      "salt_utf8" : "Bip39Chiper.v1.positional-hasher",
+      "version" : "v1"
+    },
+    "password_utf8" : "päss🔑word"
+  },
+  {
+    "id" : "kdf-p03-i06",
+    "key_hex" : "e9dd7d2ea0b20b56a2708581a9d37108b8e874e2d81c659390fa349b0ef39b8d",
+    "params" : {
+      "iterations" : 3000000,
+      "key_bytes" : 32,
+      "salt_utf8" : "Bip39Chiper.v1.positional-hasher",
+      "version" : "v1"
+    },
+    "password_utf8" : "päss🔑word"
+  },
+  {
+    "id" : "kdf-p03-i07",
+    "key_hex" : "6816028cd37c934484a7d4121ac912e11cd765cc8e6ff293b36ebc57602f055e",
+    "params" : {
+      "iterations" : 5000000,
+      "key_bytes" : 32,
+      "salt_utf8" : "Bip39Chiper.v1.positional-hasher",
+      "version" : "v1"
+    },
+    "password_utf8" : "päss🔑word"
+  },
+  {
+    "id" : "kdf-p03-i08",
+    "key_hex" : "8bfce2147ca3c823d86162ff321d65f49fb946935e3aacd643c411d48c220dd9",
+    "params" : {
+      "iterations" : 10000000,
+      "key_bytes" : 32,
+      "salt_utf8" : "Bip39Chiper.v1.positional-hasher",
+      "version" : "v1"
+    },
+    "password_utf8" : "päss🔑word"
+  },
+  {
+    "id" : "kdf-p03-i09",
+    "key_hex" : "5f378d61476224deb3caa08ce163f3ad49c575a98ad917166958db2f62eaef2a",
+    "params" : {
+      "iterations" : 15000000,
+      "key_bytes" : 32,
+      "salt_utf8" : "Bip39Chiper.v1.positional-hasher",
+      "version" : "v1"
+    },
+    "password_utf8" : "päss🔑word"
+  },
+  {
+    "id" : "kdf-p03-i10",
+    "key_hex" : "8e68d7088d5010a528e78a8f18661c5a9cd03a2f8dcfffa5df75fdb861c6f466",
+    "params" : {
+      "iterations" : 20000000,
+      "key_bytes" : 32,
+      "salt_utf8" : "Bip39Chiper.v1.positional-hasher",
+      "version" : "v1"
+    },
+    "password_utf8" : "päss🔑word"
+  },
+  {
+    "id" : "kdf-p04-i01",
+    "key_hex" : "43545e92947737cb8c29e986dd87209be9f31acde42b14b9340a638a3d9b7467",
+    "params" : {
+      "iterations" : 100000,
+      "key_bytes" : 32,
+      "salt_utf8" : "Bip39Chiper.v1.positional-hasher",
+      "version" : "v1"
+    },
+    "password_utf8" : "correct horse battery staple"
+  },
+  {
+    "id" : "kdf-p04-i02",
+    "key_hex" : "177111a190f3bd405426fc5a76c322780010a1573a1bcbeb620e7d0012ce839a",
+    "params" : {
+      "iterations" : 210000,
+      "key_bytes" : 32,
+      "salt_utf8" : "Bip39Chiper.v1.positional-hasher",
+      "version" : "v1"
+    },
+    "password_utf8" : "correct horse battery staple"
+  },
+  {
+    "id" : "kdf-p04-i03",
+    "key_hex" : "84102275cf709a0e145ab38a3e0a0f588f56700bbfb177b51e39f76f68c22e0f",
+    "params" : {
+      "iterations" : 600000,
+      "key_bytes" : 32,
+      "salt_utf8" : "Bip39Chiper.v1.positional-hasher",
+      "version" : "v1"
+    },
+    "password_utf8" : "correct horse battery staple"
+  },
+  {
+    "id" : "kdf-p04-i04",
+    "key_hex" : "f3f6838816d62909b900206fa06d4671755bd801ca0aaf30631b3fc563993b8d",
+    "params" : {
+      "iterations" : 1000000,
+      "key_bytes" : 32,
+      "salt_utf8" : "Bip39Chiper.v1.positional-hasher",
+      "version" : "v1"
+    },
+    "password_utf8" : "correct horse battery staple"
+  },
+  {
+    "id" : "kdf-p04-i05",
+    "key_hex" : "3bb14827f8838d1d5054abf9ac92e4fb9992cac2aa6b8ba84556cca4c662ecfb",
+    "params" : {
+      "iterations" : 2000000,
+      "key_bytes" : 32,
+      "salt_utf8" : "Bip39Chiper.v1.positional-hasher",
+      "version" : "v1"
+    },
+    "password_utf8" : "correct horse battery staple"
+  },
+  {
+    "id" : "kdf-p04-i06",
+    "key_hex" : "d07c98f3252ed208e02e675257432b7477e345c225745a064e08d9d88dc76397",
+    "params" : {
+      "iterations" : 3000000,
+      "key_bytes" : 32,
+      "salt_utf8" : "Bip39Chiper.v1.positional-hasher",
+      "version" : "v1"
+    },
+    "password_utf8" : "correct horse battery staple"
+  },
+  {
+    "id" : "kdf-p04-i07",
+    "key_hex" : "64bbd37df9c912e039cad5c07caabfff0214e8ec72c7274feb1b97b5b8c1866d",
+    "params" : {
+      "iterations" : 5000000,
+      "key_bytes" : 32,
+      "salt_utf8" : "Bip39Chiper.v1.positional-hasher",
+      "version" : "v1"
+    },
+    "password_utf8" : "correct horse battery staple"
+  },
+  {
+    "id" : "kdf-p04-i08",
+    "key_hex" : "90e29f33b6292c23cf13bae9c0b01e7eea52c6076f9c9c215ebbb530d5f415a3",
+    "params" : {
+      "iterations" : 10000000,
+      "key_bytes" : 32,
+      "salt_utf8" : "Bip39Chiper.v1.positional-hasher",
+      "version" : "v1"
+    },
+    "password_utf8" : "correct horse battery staple"
+  },
+  {
+    "id" : "kdf-p04-i09",
+    "key_hex" : "e91c7d381998ccbbb03a3e2355a5930180d71b3c2120acee837c0d8b708c55ee",
+    "params" : {
+      "iterations" : 15000000,
+      "key_bytes" : 32,
+      "salt_utf8" : "Bip39Chiper.v1.positional-hasher",
+      "version" : "v1"
+    },
+    "password_utf8" : "correct horse battery staple"
+  },
+  {
+    "id" : "kdf-p04-i10",
+    "key_hex" : "3b669f595f3d800cf9778f6573b994d5cdc3149a593e8e45e45f77c4e3435197",
+    "params" : {
+      "iterations" : 20000000,
+      "key_bytes" : 32,
+      "salt_utf8" : "Bip39Chiper.v1.positional-hasher",
+      "version" : "v1"
+    },
+    "password_utf8" : "correct horse battery staple"
+  },
+  {
+    "id" : "kdf-p05-i01",
+    "key_hex" : "4eec4f38cd231e5259891d9d63c5856222c66c61d03917aad4d7aa9530c195e4",
+    "params" : {
+      "iterations" : 100000,
+      "key_bytes" : 32,
+      "salt_utf8" : "Bip39Chiper.v1.positional-hasher",
+      "version" : "v1"
+    },
+    "password_utf8" : "12345678"
+  },
+  {
+    "id" : "kdf-p05-i02",
+    "key_hex" : "c49a43310a03f341c2dc1c1f32d9dd76664907be5d71a8dd36905f07d47d42fa",
+    "params" : {
+      "iterations" : 210000,
+      "key_bytes" : 32,
+      "salt_utf8" : "Bip39Chiper.v1.positional-hasher",
+      "version" : "v1"
+    },
+    "password_utf8" : "12345678"
+  },
+  {
+    "id" : "kdf-p05-i03",
+    "key_hex" : "63f4f535fb8eb887f6801f73a9c2c5ab627efc0c1ff851cff42d15c93f584436",
+    "params" : {
+      "iterations" : 600000,
+      "key_bytes" : 32,
+      "salt_utf8" : "Bip39Chiper.v1.positional-hasher",
+      "version" : "v1"
+    },
+    "password_utf8" : "12345678"
+  },
+  {
+    "id" : "kdf-p05-i04",
+    "key_hex" : "d0cae55114c84abffbef8484301a24e4589eec0a75ce968dd3c068d0eb97c25b",
+    "params" : {
+      "iterations" : 1000000,
+      "key_bytes" : 32,
+      "salt_utf8" : "Bip39Chiper.v1.positional-hasher",
+      "version" : "v1"
+    },
+    "password_utf8" : "12345678"
+  },
+  {
+    "id" : "kdf-p05-i05",
+    "key_hex" : "4632f7d2425b8c4591126c7c824ffb65f748330633161981fcc955dc831b0b2f",
+    "params" : {
+      "iterations" : 2000000,
+      "key_bytes" : 32,
+      "salt_utf8" : "Bip39Chiper.v1.positional-hasher",
+      "version" : "v1"
+    },
+    "password_utf8" : "12345678"
+  },
+  {
+    "id" : "kdf-p05-i06",
+    "key_hex" : "781a31c61b9dce7eb9f6a083d047b36b4bed15633af31c3c41a7e3f28ab77e6f",
+    "params" : {
+      "iterations" : 3000000,
+      "key_bytes" : 32,
+      "salt_utf8" : "Bip39Chiper.v1.positional-hasher",
+      "version" : "v1"
+    },
+    "password_utf8" : "12345678"
+  },
+  {
+    "id" : "kdf-p05-i07",
+    "key_hex" : "b7e965db6350d960dcd0b26fe9f7c7a0f7daa9ad2bfc453d1479fa3a811859d4",
+    "params" : {
+      "iterations" : 5000000,
+      "key_bytes" : 32,
+      "salt_utf8" : "Bip39Chiper.v1.positional-hasher",
+      "version" : "v1"
+    },
+    "password_utf8" : "12345678"
+  },
+  {
+    "id" : "kdf-p05-i08",
+    "key_hex" : "2d14cc2e9c024a0dfe4fe77d9e059bf2e94e5491d625c6562c1ed39caa3d304b",
+    "params" : {
+      "iterations" : 10000000,
+      "key_bytes" : 32,
+      "salt_utf8" : "Bip39Chiper.v1.positional-hasher",
+      "version" : "v1"
+    },
+    "password_utf8" : "12345678"
+  },
+  {
+    "id" : "kdf-p05-i09",
+    "key_hex" : "cfab0339bde41a569350d2a639e4255d7a87df6df33703a77734edb50d67d513",
+    "params" : {
+      "iterations" : 15000000,
+      "key_bytes" : 32,
+      "salt_utf8" : "Bip39Chiper.v1.positional-hasher",
+      "version" : "v1"
+    },
+    "password_utf8" : "12345678"
+  },
+  {
+    "id" : "kdf-p05-i10",
+    "key_hex" : "45e717c4a0f680fb9488d4b696deec56960950d67517f744e6e31a58948e700f",
+    "params" : {
+      "iterations" : 20000000,
+      "key_bytes" : 32,
+      "salt_utf8" : "Bip39Chiper.v1.positional-hasher",
+      "version" : "v1"
+    },
+    "password_utf8" : "12345678"
+  },
+  {
+    "id" : "kdf-p06-i01",
+    "key_hex" : "646f70ba34c8c1e838188a761f94ee46f84e8fe1689adc20a4b4708049e09c3a",
+    "params" : {
+      "iterations" : 100000,
+      "key_bytes" : 32,
+      "salt_utf8" : "Bip39Chiper.v1.positional-hasher",
+      "version" : "v1"
+    },
+    "password_utf8" : "testpassword!"
+  },
+  {
+    "id" : "kdf-p06-i02",
+    "key_hex" : "af5a2c23b8729a40780a971870193a5795199f1723c0885594d79ac099c9bc84",
+    "params" : {
+      "iterations" : 210000,
+      "key_bytes" : 32,
+      "salt_utf8" : "Bip39Chiper.v1.positional-hasher",
+      "version" : "v1"
+    },
+    "password_utf8" : "testpassword!"
+  },
+  {
+    "id" : "kdf-p06-i03",
+    "key_hex" : "dd532a5fd0664edbe1eae42f87dbada2f2988002b4532d5d5b919d55f4677d89",
+    "params" : {
+      "iterations" : 600000,
+      "key_bytes" : 32,
+      "salt_utf8" : "Bip39Chiper.v1.positional-hasher",
+      "version" : "v1"
+    },
+    "password_utf8" : "testpassword!"
+  },
+  {
+    "id" : "kdf-p06-i04",
+    "key_hex" : "aa31154d752c9b3f614dc177361d144ce7643ff5b2635310290009de18210172",
+    "params" : {
+      "iterations" : 1000000,
+      "key_bytes" : 32,
+      "salt_utf8" : "Bip39Chiper.v1.positional-hasher",
+      "version" : "v1"
+    },
+    "password_utf8" : "testpassword!"
+  },
+  {
+    "id" : "kdf-p06-i05",
+    "key_hex" : "3450a20179bfc35fa8136366c9d3898286d48d934843eb71ba96bd72a420a3d6",
+    "params" : {
+      "iterations" : 2000000,
+      "key_bytes" : 32,
+      "salt_utf8" : "Bip39Chiper.v1.positional-hasher",
+      "version" : "v1"
+    },
+    "password_utf8" : "testpassword!"
+  },
+  {
+    "id" : "kdf-p06-i06",
+    "key_hex" : "89ddbd73cbe14f7b1ae367b0ecf7acf12db7f05adf3999665f384e49f4a389ac",
+    "params" : {
+      "iterations" : 3000000,
+      "key_bytes" : 32,
+      "salt_utf8" : "Bip39Chiper.v1.positional-hasher",
+      "version" : "v1"
+    },
+    "password_utf8" : "testpassword!"
+  },
+  {
+    "id" : "kdf-p06-i07",
+    "key_hex" : "d7c8bdcfa1c897d3978f333de3a4732ddda48b98bc1fd2c179cff4d7a2b4a3ac",
+    "params" : {
+      "iterations" : 5000000,
+      "key_bytes" : 32,
+      "salt_utf8" : "Bip39Chiper.v1.positional-hasher",
+      "version" : "v1"
+    },
+    "password_utf8" : "testpassword!"
+  },
+  {
+    "id" : "kdf-p06-i08",
+    "key_hex" : "6fc151bdce9aadfa0960e369ce0c8b8fa89f36942ba39538e15488b285eca1a7",
+    "params" : {
+      "iterations" : 10000000,
+      "key_bytes" : 32,
+      "salt_utf8" : "Bip39Chiper.v1.positional-hasher",
+      "version" : "v1"
+    },
+    "password_utf8" : "testpassword!"
+  },
+  {
+    "id" : "kdf-p06-i09",
+    "key_hex" : "7402319a3c9d931ba6578806564eb1d7bf507ab35fb73609f0e419173b7a4fd9",
+    "params" : {
+      "iterations" : 15000000,
+      "key_bytes" : 32,
+      "salt_utf8" : "Bip39Chiper.v1.positional-hasher",
+      "version" : "v1"
+    },
+    "password_utf8" : "testpassword!"
+  },
+  {
+    "id" : "kdf-p06-i10",
+    "key_hex" : "cc4f316c78186a48cfcd635fd70f6a1b532e50f841b046a60bbcae6257f0a6f3",
+    "params" : {
+      "iterations" : 20000000,
+      "key_bytes" : 32,
+      "salt_utf8" : "Bip39Chiper.v1.positional-hasher",
+      "version" : "v1"
+    },
+    "password_utf8" : "testpassword!"
+  },
+  {
+    "id" : "kdf-p07-i01",
+    "key_hex" : "0ac263044b94cf432ee26ed73ce078f8b6111aa81a1668ff2142e2dee6a96584",
+    "params" : {
+      "iterations" : 100000,
+      "key_bytes" : 32,
+      "salt_utf8" : "Bip39Chiper.v1.positional-hasher",
+      "version" : "v1"
+    },
+    "password_utf8" : "αβγδε6789"
+  },
+  {
+    "id" : "kdf-p07-i02",
+    "key_hex" : "0db3244af0ade6753cefeab60cb5fb91389eafd0c7aeb26b42c0c1ca52944347",
+    "params" : {
+      "iterations" : 210000,
+      "key_bytes" : 32,
+      "salt_utf8" : "Bip39Chiper.v1.positional-hasher",
+      "version" : "v1"
+    },
+    "password_utf8" : "αβγδε6789"
+  },
+  {
+    "id" : "kdf-p07-i03",
+    "key_hex" : "f5ed3fbc3cbca8ec84340e5db35825a8911ae6b53010b8392ef9c738d5ecf493",
+    "params" : {
+      "iterations" : 600000,
+      "key_bytes" : 32,
+      "salt_utf8" : "Bip39Chiper.v1.positional-hasher",
+      "version" : "v1"
+    },
+    "password_utf8" : "αβγδε6789"
+  },
+  {
+    "id" : "kdf-p07-i04",
+    "key_hex" : "f4f19765ce0fb8192564791e0a88fdd0c0cbc2ba28febec875a1535926d7503e",
+    "params" : {
+      "iterations" : 1000000,
+      "key_bytes" : 32,
+      "salt_utf8" : "Bip39Chiper.v1.positional-hasher",
+      "version" : "v1"
+    },
+    "password_utf8" : "αβγδε6789"
+  },
+  {
+    "id" : "kdf-p07-i05",
+    "key_hex" : "df749f82bb931f08ae9d5f4f69209cb6f06c8fa4036b0f188598e50ec3c50f1b",
+    "params" : {
+      "iterations" : 2000000,
+      "key_bytes" : 32,
+      "salt_utf8" : "Bip39Chiper.v1.positional-hasher",
+      "version" : "v1"
+    },
+    "password_utf8" : "αβγδε6789"
+  },
+  {
+    "id" : "kdf-p07-i06",
+    "key_hex" : "ac7577a1501254770def1eb69000aac26f639067ab98a60e22cc19894610ff5a",
+    "params" : {
+      "iterations" : 3000000,
+      "key_bytes" : 32,
+      "salt_utf8" : "Bip39Chiper.v1.positional-hasher",
+      "version" : "v1"
+    },
+    "password_utf8" : "αβγδε6789"
+  },
+  {
+    "id" : "kdf-p07-i07",
+    "key_hex" : "7fb0e7add543d64d38b86c81d974afc92e7b1b231034c062fce96c3b8a48883e",
+    "params" : {
+      "iterations" : 5000000,
+      "key_bytes" : 32,
+      "salt_utf8" : "Bip39Chiper.v1.positional-hasher",
+      "version" : "v1"
+    },
+    "password_utf8" : "αβγδε6789"
+  },
+  {
+    "id" : "kdf-p07-i08",
+    "key_hex" : "36210f95bfe0de8f357620acdc99d226cd145c7eaf89ec1b40bec9698890c95b",
+    "params" : {
+      "iterations" : 10000000,
+      "key_bytes" : 32,
+      "salt_utf8" : "Bip39Chiper.v1.positional-hasher",
+      "version" : "v1"
+    },
+    "password_utf8" : "αβγδε6789"
+  },
+  {
+    "id" : "kdf-p07-i09",
+    "key_hex" : "04f207db83be2477e154234c16a34bc3563362f27b5ab634f059e983792adf08",
+    "params" : {
+      "iterations" : 15000000,
+      "key_bytes" : 32,
+      "salt_utf8" : "Bip39Chiper.v1.positional-hasher",
+      "version" : "v1"
+    },
+    "password_utf8" : "αβγδε6789"
+  },
+  {
+    "id" : "kdf-p07-i10",
+    "key_hex" : "ffff295a23b106444118a0f01f9245e847b610abf19518fa0f4af4511a8937fc",
+    "params" : {
+      "iterations" : 20000000,
+      "key_bytes" : 32,
+      "salt_utf8" : "Bip39Chiper.v1.positional-hasher",
+      "version" : "v1"
+    },
+    "password_utf8" : "αβγδε6789"
+  },
+  {
+    "id" : "kdf-key16-i01",
+    "key_hex" : "4539133836a67287348f10d8110cae6e",
+    "params" : {
+      "iterations" : 100000,
+      "key_bytes" : 16,
+      "salt_utf8" : "Bip39Chiper.v1.positional-hasher",
+      "version" : "v1"
+    },
+    "password_utf8" : "testpassword"
+  },
+  {
+    "id" : "kdf-key16-i02",
+    "key_hex" : "01e82c4c769248f8037c1d2fceafa1d6",
+    "params" : {
+      "iterations" : 600000,
+      "key_bytes" : 16,
+      "salt_utf8" : "Bip39Chiper.v1.positional-hasher",
+      "version" : "v1"
+    },
+    "password_utf8" : "testpassword"
+  },
+  {
+    "id" : "kdf-key16-i03",
+    "key_hex" : "2d2d479ac2d4c0ad319c21a26f8dcb15",
+    "params" : {
+      "iterations" : 1000000,
+      "key_bytes" : 16,
+      "salt_utf8" : "Bip39Chiper.v1.positional-hasher",
+      "version" : "v1"
+    },
+    "password_utf8" : "testpassword"
+  },
+  {
+    "id" : "kdf-key16-i04",
+    "key_hex" : "f416d932da9aa52dde6aa29e83618979",
+    "params" : {
+      "iterations" : 5000000,
+      "key_bytes" : 16,
+      "salt_utf8" : "Bip39Chiper.v1.positional-hasher",
+      "version" : "v1"
+    },
+    "password_utf8" : "testpassword"
+  },
+  {
+    "id" : "kdf-key16-i05",
+    "key_hex" : "3c3c9c4cae1a77d7be7c49edc3e5c9b0",
+    "params" : {
+      "iterations" : 10000000,
+      "key_bytes" : 16,
+      "salt_utf8" : "Bip39Chiper.v1.positional-hasher",
+      "version" : "v1"
+    },
+    "password_utf8" : "testpassword"
+  },
+  {
+    "id" : "kdf-key64-i01",
+    "key_hex" : "4539133836a67287348f10d8110cae6e9fa46b183c3b270ae73487042a41690bba2063cbd5aa66a87cf718d21c6eaf18c8ce85cda90fb4a36bf969c9a2b6a37b",
+    "params" : {
+      "iterations" : 100000,
+      "key_bytes" : 64,
+      "salt_utf8" : "Bip39Chiper.v1.positional-hasher",
+      "version" : "v1"
+    },
+    "password_utf8" : "testpassword"
+  },
+  {
+    "id" : "kdf-key64-i02",
+    "key_hex" : "01e82c4c769248f8037c1d2fceafa1d67ed556fe719ea8ad77b2daa3d6d4cbd1b889d72411e11ccbdac0bbc9c676eb6d8d14877fb2efd09d1a8fa39fdb40eb8d",
+    "params" : {
+      "iterations" : 600000,
+      "key_bytes" : 64,
+      "salt_utf8" : "Bip39Chiper.v1.positional-hasher",
+      "version" : "v1"
+    },
+    "password_utf8" : "testpassword"
+  },
+  {
+    "id" : "kdf-key64-i03",
+    "key_hex" : "2d2d479ac2d4c0ad319c21a26f8dcb15c75c5a87693c87ec57441e41475de1a61a1a54c8242a67162d7b724b93dfb429126979485ca3527e62e881bcb5592a41",
+    "params" : {
+      "iterations" : 1000000,
+      "key_bytes" : 64,
+      "salt_utf8" : "Bip39Chiper.v1.positional-hasher",
+      "version" : "v1"
+    },
+    "password_utf8" : "testpassword"
+  },
+  {
+    "id" : "kdf-key64-i04",
+    "key_hex" : "f416d932da9aa52dde6aa29e8361897945232cde9d8768fb35f0bfe3c6006adf6e8819f042b99b086921b2966cad74a71514e05ffa18047b84a0650f4f626294",
+    "params" : {
+      "iterations" : 5000000,
+      "key_bytes" : 64,
+      "salt_utf8" : "Bip39Chiper.v1.positional-hasher",
+      "version" : "v1"
+    },
+    "password_utf8" : "testpassword"
+  },
+  {
+    "id" : "kdf-key64-i05",
+    "key_hex" : "3c3c9c4cae1a77d7be7c49edc3e5c9b03af1175695200b60325da23744d74cf44ae4eac4d74eb2351d89e7dd0db079d0761c19be20ccbdd9a785efaab295a97b",
+    "params" : {
+      "iterations" : 10000000,
+      "key_bytes" : 64,
+      "salt_utf8" : "Bip39Chiper.v1.positional-hasher",
+      "version" : "v1"
+    },
+    "password_utf8" : "testpassword"
+  }
+]

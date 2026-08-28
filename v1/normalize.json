@@ -1,0 +1,422 @@
+[
+  {
+    "id" : "norm-0-upper",
+    "input" : "3JKDEPFPN",
+    "normalized" : "3JKDEPFPN",
+    "valid" : true
+  },
+  {
+    "id" : "norm-0-lower",
+    "input" : "3jkdepfpn",
+    "normalized" : "3JKDEPFPN",
+    "valid" : true
+  },
+  {
+    "id" : "norm-1-upper",
+    "input" : "2MKGTQMA4",
+    "normalized" : "2MKGTQMA4",
+    "valid" : true
+  },
+  {
+    "id" : "norm-1-lower",
+    "input" : "2mkgtqma4",
+    "normalized" : "2MKGTQMA4",
+    "valid" : true
+  },
+  {
+    "id" : "norm-2-upper",
+    "input" : "3MKJ78HRT",
+    "normalized" : "3MKJ78HRT",
+    "valid" : true
+  },
+  {
+    "id" : "norm-2-lower",
+    "input" : "3mkj78hrt",
+    "normalized" : "3MKJ78HRT",
+    "valid" : true
+  },
+  {
+    "id" : "norm-3-upper",
+    "input" : "3947VKVAG",
+    "normalized" : "3947VKVAG",
+    "valid" : true
+  },
+  {
+    "id" : "norm-3-lower",
+    "input" : "3947vkvag",
+    "normalized" : "3947VKVAG",
+    "valid" : true
+  },
+  {
+    "id" : "norm-4-upper",
+    "input" : "2GBM9FKQW",
+    "normalized" : "2GBM9FKQW",
+    "valid" : true
+  },
+  {
+    "id" : "norm-4-lower",
+    "input" : "2gbm9fkqw",
+    "normalized" : "2GBM9FKQW",
+    "valid" : true
+  },
+  {
+    "id" : "norm-sep-0",
+    "input" : "3J KD EP FP N",
+    "normalized" : "3JKDEPFPN",
+    "valid" : true
+  },
+  {
+    "id" : "norm-sep-1",
+    "input" : "3J  KD  EP  FP  N",
+    "normalized" : "3JKDEPFPN",
+    "valid" : true
+  },
+  {
+    "id" : "norm-sep-2",
+    "input" : "3J\tKD\tEP\tFP\tN",
+    "normalized" : "3JKDEPFPN",
+    "valid" : true
+  },
+  {
+    "id" : "norm-sep-3",
+    "input" : "3J-KD-EP-FP-N",
+    "normalized" : "3JKDEPFPN",
+    "valid" : true
+  },
+  {
+    "id" : "norm-sep-4",
+    "input" : "3J_KD_EP_FP_N",
+    "normalized" : "3JKDEPFPN",
+    "valid" : true
+  },
+  {
+    "id" : "norm-sep-5",
+    "input" : "3J.KD.EP.FP.N",
+    "normalized" : "3JKDEPFPN",
+    "valid" : true
+  },
+  {
+    "id" : "norm-sep-6",
+    "input" : "3J,KD,EP,FP,N",
+    "normalized" : "3JKDEPFPN",
+    "valid" : true
+  },
+  {
+    "id" : "norm-sep-7",
+    "input" : "3J;KD;EP;FP;N",
+    "normalized" : "3JKDEPFPN",
+    "valid" : true
+  },
+  {
+    "id" : "norm-sep-8",
+    "input" : "3J - KD - EP - FP - N",
+    "normalized" : "3JKDEPFPN",
+    "valid" : true
+  },
+  {
+    "id" : "norm-sep-9",
+    "input" : "3J\nKD\nEP\nFP\nN",
+    "normalized" : "3JKDEPFPN",
+    "valid" : true
+  },
+  {
+    "id" : "norm-short-1",
+    "input" : "3",
+    "normalized" : "3",
+    "valid" : false
+  },
+  {
+    "id" : "norm-short-2",
+    "input" : "3J",
+    "normalized" : "3J",
+    "valid" : false
+  },
+  {
+    "id" : "norm-short-3",
+    "input" : "3JK",
+    "normalized" : "3JK",
+    "valid" : false
+  },
+  {
+    "id" : "norm-short-4",
+    "input" : "3JKD",
+    "normalized" : "3JKD",
+    "valid" : false
+  },
+  {
+    "id" : "norm-short-5",
+    "input" : "3JKDE",
+    "normalized" : "3JKDE",
+    "valid" : false
+  },
+  {
+    "id" : "norm-short-6",
+    "input" : "3JKDEP",
+    "normalized" : "3JKDEP",
+    "valid" : false
+  },
+  {
+    "id" : "norm-short-7",
+    "input" : "3JKDEPF",
+    "normalized" : "3JKDEPF",
+    "valid" : false
+  },
+  {
+    "id" : "norm-short-8",
+    "input" : "3JKDEPFP",
+    "normalized" : "3JKDEPFP",
+    "valid" : false
+  },
+  {
+    "id" : "norm-invalid-0",
+    "input" : "0JKDEPFPN",
+    "normalized" : "JKDEPFPN",
+    "valid" : false
+  },
+  {
+    "id" : "norm-invalid-1",
+    "input" : "3OKDEPFPN",
+    "normalized" : "3KDEPFPN",
+    "valid" : false
+  },
+  {
+    "id" : "norm-invalid-2",
+    "input" : "3J1DEPFPN",
+    "normalized" : "3JDEPFPN",
+    "valid" : false
+  },
+  {
+    "id" : "norm-invalid-3",
+    "input" : "3JKIEPFPN",
+    "normalized" : "3JKEPFPN",
+    "valid" : false
+  },
+  {
+    "id" : "norm-invalid-4",
+    "input" : "3JKDLPFPN",
+    "normalized" : "3JKDPFPN",
+    "valid" : false
+  },
+  {
+    "id" : "norm-invalid-5",
+    "input" : "3JKDEUFPN",
+    "normalized" : "3JKDEFPN",
+    "valid" : false
+  },
+  {
+    "id" : "norm-invalid-6",
+    "input" : "3JKDEP!PN",
+    "normalized" : "3JKDEPPN",
+    "valid" : false
+  },
+  {
+    "id" : "norm-invalid-7",
+    "input" : "3JKDEPF@N",
+    "normalized" : "3JKDEPFN",
+    "valid" : false
+  },
+  {
+    "id" : "norm-invalid-8",
+    "input" : "3JKDEPFP\/",
+    "normalized" : "3JKDEPFP",
+    "valid" : false
+  },
+  {
+    "id" : "norm-wrap-0-0",
+    "input" : "3jkdepfpn",
+    "normalized" : "3JKDEPFPN",
+    "valid" : true
+  },
+  {
+    "id" : "norm-wrap-0-1",
+    "input" : "3jkdepfpn ",
+    "normalized" : "3JKDEPFPN",
+    "valid" : true
+  },
+  {
+    "id" : "norm-wrap-0-2",
+    "input" : "3jkdepfpn!!",
+    "normalized" : "3JKDEPFPN",
+    "valid" : true
+  },
+  {
+    "id" : "norm-wrap-0-3",
+    "input" : "3jkdepfpn...",
+    "normalized" : "3JKDEPFPN",
+    "valid" : true
+  },
+  {
+    "id" : "norm-wrap-1-0",
+    "input" : " 3jkdepfpn",
+    "normalized" : "3JKDEPFPN",
+    "valid" : true
+  },
+  {
+    "id" : "norm-wrap-1-1",
+    "input" : " 3jkdepfpn ",
+    "normalized" : "3JKDEPFPN",
+    "valid" : true
+  },
+  {
+    "id" : "norm-wrap-1-2",
+    "input" : " 3jkdepfpn!!",
+    "normalized" : "3JKDEPFPN",
+    "valid" : true
+  },
+  {
+    "id" : "norm-wrap-1-3",
+    "input" : " 3jkdepfpn...",
+    "normalized" : "3JKDEPFPN",
+    "valid" : true
+  },
+  {
+    "id" : "norm-wrap-2-0",
+    "input" : "  3jkdepfpn",
+    "normalized" : "3JKDEPFPN",
+    "valid" : true
+  },
+  {
+    "id" : "norm-wrap-2-1",
+    "input" : "  3jkdepfpn ",
+    "normalized" : "3JKDEPFPN",
+    "valid" : true
+  },
+  {
+    "id" : "norm-wrap-2-2",
+    "input" : "  3jkdepfpn!!",
+    "normalized" : "3JKDEPFPN",
+    "valid" : true
+  },
+  {
+    "id" : "norm-wrap-2-3",
+    "input" : "  3jkdepfpn...",
+    "normalized" : "3JKDEPFPN",
+    "valid" : true
+  },
+  {
+    "id" : "norm-wrap-3-0",
+    "input" : "\t3jkdepfpn",
+    "normalized" : "3JKDEPFPN",
+    "valid" : true
+  },
+  {
+    "id" : "norm-wrap-3-1",
+    "input" : "\t3jkdepfpn ",
+    "normalized" : "3JKDEPFPN",
+    "valid" : true
+  },
+  {
+    "id" : "norm-wrap-3-2",
+    "input" : "\t3jkdepfpn!!",
+    "normalized" : "3JKDEPFPN",
+    "valid" : true
+  },
+  {
+    "id" : "norm-wrap-3-3",
+    "input" : "\t3jkdepfpn...",
+    "normalized" : "3JKDEPFPN",
+    "valid" : true
+  },
+  {
+    "id" : "norm-wrap-4-0",
+    "input" : ">>> 3jkdepfpn",
+    "normalized" : "3JKDEPFPN",
+    "valid" : true
+  },
+  {
+    "id" : "norm-wrap-4-1",
+    "input" : ">>> 3jkdepfpn ",
+    "normalized" : "3JKDEPFPN",
+    "valid" : true
+  },
+  {
+    "id" : "norm-wrap-4-2",
+    "input" : ">>> 3jkdepfpn!!",
+    "normalized" : "3JKDEPFPN",
+    "valid" : true
+  },
+  {
+    "id" : "norm-wrap-4-3",
+    "input" : ">>> 3jkdepfpn...",
+    "normalized" : "3JKDEPFPN",
+    "valid" : true
+  },
+  {
+    "id" : "norm-wrap-5-0",
+    "input" : "(3jkdepfpn",
+    "normalized" : "3JKDEPFPN",
+    "valid" : true
+  },
+  {
+    "id" : "norm-wrap-5-1",
+    "input" : "(3jkdepfpn ",
+    "normalized" : "3JKDEPFPN",
+    "valid" : true
+  },
+  {
+    "id" : "norm-wrap-5-2",
+    "input" : "(3jkdepfpn!!",
+    "normalized" : "3JKDEPFPN",
+    "valid" : true
+  },
+  {
+    "id" : "norm-wrap-5-3",
+    "input" : "(3jkdepfpn...",
+    "normalized" : "3JKDEPFPN",
+    "valid" : true
+  },
+  {
+    "id" : "norm-wrap-6-0",
+    "input" : ") 3jkdepfpn",
+    "normalized" : "3JKDEPFPN",
+    "valid" : true
+  },
+  {
+    "id" : "norm-wrap-6-1",
+    "input" : ") 3jkdepfpn ",
+    "normalized" : "3JKDEPFPN",
+    "valid" : true
+  },
+  {
+    "id" : "norm-wrap-6-2",
+    "input" : ") 3jkdepfpn!!",
+    "normalized" : "3JKDEPFPN",
+    "valid" : true
+  },
+  {
+    "id" : "norm-wrap-6-3",
+    "input" : ") 3jkdepfpn...",
+    "normalized" : "3JKDEPFPN",
+    "valid" : true
+  },
+  {
+    "id" : "norm-pad-65",
+    "input" : "3jkdepfpn ",
+    "normalized" : "3JKDEPFPN",
+    "valid" : true
+  },
+  {
+    "id" : "norm-pad-66",
+    "input" : "3jkdepfpn  ",
+    "normalized" : "3JKDEPFPN",
+    "valid" : true
+  },
+  {
+    "id" : "norm-pad-67",
+    "input" : "3jkdepfpn   ",
+    "normalized" : "3JKDEPFPN",
+    "valid" : true
+  },
+  {
+    "id" : "norm-pad-68",
+    "input" : "3jkdepfpn",
+    "normalized" : "3JKDEPFPN",
+    "valid" : true
+  },
+  {
+    "id" : "norm-pad-69",
+    "input" : "3jkdepfpn ",
+    "normalized" : "3JKDEPFPN",
+    "valid" : true
+  }
+]
